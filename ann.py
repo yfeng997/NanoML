@@ -15,6 +15,9 @@ we find the approximate nearest neighbors by traversing the tree.
 Then build a forest of trees to improve the accuracy.
 
 Hyperplane: (x - x0) * n = 0
+
+Basic benchmark:
+- 5 trees, 1m vectors, 300d: 2ms/query
 """
 
 
